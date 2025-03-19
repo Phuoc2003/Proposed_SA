@@ -1,0 +1,36 @@
+C:/Thesis/Quartus/tb.sv {1 {vlog -work work -sv -stats=none C:/Thesis/Quartus/tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mesh_tb
+
+Top level modules:
+	mesh_tb
+
+} {} {}} C:/Thesis/Quartus/full_adder.sv {1 {vlog -work work -sv -stats=none C:/Thesis/Quartus/full_adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} C:/Thesis/Quartus/Tile.sv {1 {vlog -work work -sv -stats=none C:/Thesis/Quartus/Tile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Tile
+
+Top level modules:
+	Tile
+
+} {} {}} C:/Thesis/Quartus/csa.sv {1 {vlog -work work -sv -stats=none C:/Thesis/Quartus/csa.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module csa
+
+Top level modules:
+	csa
+
+} {} {}} C:/Thesis/Quartus/Mesh.sv {1 {vlog -work work -sv -stats=none C:/Thesis/Quartus/Mesh.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Mesh
+
+Top level modules:
+	Mesh
+
+} {} {}}

@@ -1,0 +1,471 @@
+|MacUnit
+io_in_a[0] => Mult0.IN15
+io_in_a[1] => Mult0.IN14
+io_in_a[2] => Mult0.IN13
+io_in_a[3] => Mult0.IN12
+io_in_a[4] => Mult0.IN11
+io_in_a[5] => Mult0.IN10
+io_in_a[6] => Mult0.IN9
+io_in_a[7] => Mult0.IN0
+io_in_a[7] => Mult0.IN1
+io_in_a[7] => Mult0.IN2
+io_in_a[7] => Mult0.IN3
+io_in_a[7] => Mult0.IN4
+io_in_a[7] => Mult0.IN5
+io_in_a[7] => Mult0.IN6
+io_in_a[7] => Mult0.IN7
+io_in_a[7] => Mult0.IN8
+io_in_b[0] => Mult0.IN31
+io_in_b[1] => Mult0.IN30
+io_in_b[2] => Mult0.IN29
+io_in_b[3] => Mult0.IN28
+io_in_b[4] => Mult0.IN27
+io_in_b[5] => Mult0.IN26
+io_in_b[6] => Mult0.IN25
+io_in_b[7] => Mult0.IN16
+io_in_b[7] => Mult0.IN17
+io_in_b[7] => Mult0.IN18
+io_in_b[7] => Mult0.IN19
+io_in_b[7] => Mult0.IN20
+io_in_b[7] => Mult0.IN21
+io_in_b[7] => Mult0.IN22
+io_in_b[7] => Mult0.IN23
+io_in_b[7] => Mult0.IN24
+io_in_c[0] => io_in_c[0].IN1
+io_in_c[1] => io_in_c[1].IN1
+io_in_c[2] => io_in_c[2].IN1
+io_in_c[3] => io_in_c[3].IN1
+io_in_c[4] => io_in_c[4].IN1
+io_in_c[5] => io_in_c[5].IN1
+io_in_c[6] => io_in_c[6].IN1
+io_in_c[7] => io_in_c[7].IN1
+io_in_c[8] => io_in_c[8].IN1
+io_in_c[9] => io_in_c[9].IN1
+io_in_c[10] => io_in_c[10].IN1
+io_in_c[11] => io_in_c[11].IN1
+io_in_c[12] => io_in_c[12].IN1
+io_in_c[13] => io_in_c[13].IN1
+io_in_c[14] => io_in_c[14].IN1
+io_in_c[15] => io_in_c[15].IN1
+io_in_c[16] => io_in_c[16].IN1
+io_in_c[17] => io_in_c[17].IN1
+io_in_c[18] => io_in_c[18].IN1
+io_in_c[19] => io_in_c[19].IN1
+io_in_c[20] => ~NO_FANOUT~
+io_in_c[21] => ~NO_FANOUT~
+io_in_c[22] => ~NO_FANOUT~
+io_in_c[23] => ~NO_FANOUT~
+io_in_c[24] => ~NO_FANOUT~
+io_in_c[25] => ~NO_FANOUT~
+io_in_c[26] => ~NO_FANOUT~
+io_in_c[27] => ~NO_FANOUT~
+io_in_c[28] => ~NO_FANOUT~
+io_in_c[29] => ~NO_FANOUT~
+io_in_c[30] => ~NO_FANOUT~
+io_in_c[31] => ~NO_FANOUT~
+io_out_d[0] <= <GND>
+io_out_d[1] <= <GND>
+io_out_d[2] <= <GND>
+io_out_d[3] <= <GND>
+io_out_d[4] <= <GND>
+io_out_d[5] <= <GND>
+io_out_d[6] <= <GND>
+io_out_d[7] <= <GND>
+io_out_d[8] <= <GND>
+io_out_d[9] <= <GND>
+io_out_d[10] <= <GND>
+io_out_d[11] <= <GND>
+io_out_d[12] <= <GND>
+io_out_d[13] <= <GND>
+io_out_d[14] <= <GND>
+io_out_d[15] <= <GND>
+io_out_d[16] <= <GND>
+io_out_d[17] <= <GND>
+io_out_d[18] <= <GND>
+io_out_d[19] <= <GND>
+
+
+|MacUnit|csa:csa_inst
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+a[16] => a[16].IN1
+a[17] => a[17].IN1
+a[18] => a[18].IN1
+a[19] => a[19].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+b[16] => b[16].IN1
+b[17] => b[17].IN1
+b[18] => b[18].IN1
+b[19] => b[19].IN1
+c[0] => c[0].IN1
+c[1] => c[1].IN1
+c[2] => c[2].IN1
+c[3] => c[3].IN1
+c[4] => c[4].IN1
+c[5] => c[5].IN1
+c[6] => c[6].IN1
+c[7] => c[7].IN1
+c[8] => c[8].IN1
+c[9] => c[9].IN1
+c[10] => c[10].IN1
+c[11] => c[11].IN1
+c[12] => c[12].IN1
+c[13] => c[13].IN1
+c[14] => c[14].IN1
+c[15] => c[15].IN1
+c[16] => c[16].IN1
+c[17] => c[17].IN1
+c[18] => c[18].IN1
+c[19] => c[19].IN1
+c_out[0] <= <GND>
+c_out[1] <= full_adder:gen[0].FA.c_out
+c_out[2] <= full_adder:gen[1].FA.c_out
+c_out[3] <= full_adder:gen[2].FA.c_out
+c_out[4] <= full_adder:gen[3].FA.c_out
+c_out[5] <= full_adder:gen[4].FA.c_out
+c_out[6] <= full_adder:gen[5].FA.c_out
+c_out[7] <= full_adder:gen[6].FA.c_out
+c_out[8] <= full_adder:gen[7].FA.c_out
+c_out[9] <= full_adder:gen[8].FA.c_out
+c_out[10] <= full_adder:gen[9].FA.c_out
+c_out[11] <= full_adder:gen[10].FA.c_out
+c_out[12] <= full_adder:gen[11].FA.c_out
+c_out[13] <= full_adder:gen[12].FA.c_out
+c_out[14] <= full_adder:gen[13].FA.c_out
+c_out[15] <= full_adder:gen[14].FA.c_out
+c_out[16] <= full_adder:gen[15].FA.c_out
+c_out[17] <= full_adder:gen[16].FA.c_out
+c_out[18] <= full_adder:gen[17].FA.c_out
+c_out[19] <= full_adder:gen[18].FA.c_out
+c_out[20] <= full_adder:gen[19].FA.c_out
+s[0] <= full_adder:gen[0].FA.s
+s[1] <= full_adder:gen[1].FA.s
+s[2] <= full_adder:gen[2].FA.s
+s[3] <= full_adder:gen[3].FA.s
+s[4] <= full_adder:gen[4].FA.s
+s[5] <= full_adder:gen[5].FA.s
+s[6] <= full_adder:gen[6].FA.s
+s[7] <= full_adder:gen[7].FA.s
+s[8] <= full_adder:gen[8].FA.s
+s[9] <= full_adder:gen[9].FA.s
+s[10] <= full_adder:gen[10].FA.s
+s[11] <= full_adder:gen[11].FA.s
+s[12] <= full_adder:gen[12].FA.s
+s[13] <= full_adder:gen[13].FA.s
+s[14] <= full_adder:gen[14].FA.s
+s[15] <= full_adder:gen[15].FA.s
+s[16] <= full_adder:gen[16].FA.s
+s[17] <= full_adder:gen[17].FA.s
+s[18] <= full_adder:gen[18].FA.s
+s[19] <= full_adder:gen[19].FA.s
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[0].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[1].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[2].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[3].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[4].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[5].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[6].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[7].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[8].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[9].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[10].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[11].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[12].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[13].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[14].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[15].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[16].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[17].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[18].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MacUnit|csa:csa_inst|full_adder:gen[19].FA
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
